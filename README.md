@@ -54,8 +54,8 @@ Os resultados obtidos foram extremamente satisfatórios, tendo em vista que em C
 <br>
 
 ``` 
-$ gcc -O3 -fopenmp -o \<executável> \<nome do arquivo>.c
-$ time ./\<executável>
+$ gcc -O3 -fopenmp -o <executável> <nome do arquivo>.c
+$ time ./<executável>
 ```
 <br>
 
@@ -69,8 +69,8 @@ $ time ./\<executável>
 <br>
 
 ``` 
-$ gcc -O3 \<nome do arquivo>.c -o \<executável>
-$ time ./\<executável>
+$ gcc -O3 <nome do arquivo>.c -o <executável>
+$ time ./<executável>
 ```
 
 <br>
