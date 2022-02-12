@@ -9,15 +9,15 @@ Seu objetivo é encontrar o caminho mais curto entre todos os pares de vértices
 <br>
 
 ## Complexidade 
-Os três laços aninhados são executados n vezes, logo, a complexidade final é O(n^3), ou mais precisamente, Θ(n^3). 
+O código possui três laços aninhados que são executados n vezes, logo, a complexidade final é O(n^3), ou mais precisamente, Θ(n^3). 
 
 <br>
 
 ## Paralelização
 
-Como mencionado anteriormente, o código tem uma alta complexidade, logo o nosso trabalho visa melhorar o tempo de execução do algoritmo. Fizemos a paralelização utilizando duas linguagens de programação diferentes, C e Python, nos baseando em códigos disponíveis [aqui (em C)](https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/) e [aqui (em Python)](https://github.com/TamaWilson/floyd_python/blob/master/floyd.py). 
+Como mencionado anteriormente, o código tem uma alta complexidade, logo o nosso trabalho visa melhorar o tempo de execução do algoritmo. Fizemos a paralelização em duas linguagens de programação diferentes, C e Python, nos baseando em códigos disponíveis [aqui](https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/) (em C) e [aqui](https://github.com/TamaWilson/floyd_python/blob/master/floyd.py) (em Python). 
 
-Em C optamos por utilizar a API para programação paralela **OpenMP**, enquanto que em Python utilizamos as bibliotecas **multiprocessing** e **functools**.
+Em C optamos por utilizar a API para programação paralela _**OpenMP**_, enquanto que em Python utilizamos as bibliotecas _**multiprocessing**_ e _**functools**_.
 
 <br>
 
