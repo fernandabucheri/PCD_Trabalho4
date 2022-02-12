@@ -61,7 +61,7 @@ $ time ./<executável>
 
 - O parâmetro -O3 presente na primeira linha é uma das flags que o compilador GCC possui. Ela serve para deixar o executável mais rápido, fazendo com que seja possível ocupar melhor os recursos do processador (paralelismo no nível de instruções).
 
-- O _time_, presente na segunda linha, opcional. Ele serve para mostrar mais detalhadamente o tempo de execução do programa).
+- O _time_, presente na segunda linha, é opcional. Ele serve para mostrar mais detalhadamente o tempo de execução do programa).
 
 <br> 
 
