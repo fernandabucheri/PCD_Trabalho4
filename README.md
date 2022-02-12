@@ -1,34 +1,36 @@
 # Otimização do Algoritmo de caminho mínimo entre grafos de Floyd-Warshall, transformando de serial para paralelo.
-
 <br>
-
 ## Descrição do algoritmo
 O algoritmo de Floyd-Warshall foi desenvolvido por Bernard Roy, Stephen Warshall e Robert Floyd em 1962. 
 Seu objetivo é encontrar o caminho mais curto entre todos os pares de vértices de um grafo direcionado e ponderado, gerando como saída uma matriz de distâncias que contém os valores do menor caminho entre cada par de vértices.
 
+<br>
 
 ## Complexidade 
 Os três laços aninhados são executados n vezes, logo, a complexidade final é O(n^3), ou mais precisamente, Θ(n^3). 
 
+<br>
 
 ## Paralelização
+
 Como mencionado anteriormente, o código tem uma alta complexidade, logo o nosso trabalho visa melhorar o tempo de execução do algoritmo. Fizemos a paralelização utilizando duas linguagens de programação diferentes, C e Python, nos baseando em códigos disponíveis [aqui (em C)](https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/) e [aqui (em Python)](https://github.com/TamaWilson/floyd_python/blob/master/floyd.py). 
 
 Em C optamos por utilizar a API para programação paralela **OpenMP**, enquanto que em Python utilizamos as bibliotecas **multiprocessing** e **functools**.
 
+<br>
 
 ## Resultados
 ### _Linguagem de programação C_
 Em C fizemos testes inserindo grafos de tamanho 5000 x 5000. 
 <br>
 O **código serial levou 82 segundos** para executar, enquanto que o **código com 8 threads demorou 21 segundos** para ser executado. 
-<br>
+<br><br>
 
 ### _Linguagem de programação Python_
 Em python fizemos testes inserindo grafos de tamanho 400 x 400.
 <br>
 O **código serial levou 44,48 segundos** para executar, enquanto que o **código com 4 threads demorou 21,74 segundos** para ser executado. 
-<br>
+<br><br>
 
 ### _Gráficos_
 Foram montados gráficos para melhor visualização dos resultados obtidos e com outros testes. Os mesmos estão disponíveis [aqui](https://docs.google.com/spreadsheets/d/1H5-Em80YQwA0ypmRPsdF6hyoEcKSBcKjR6gqlPUFNW8/edit?usp=sharing). 
