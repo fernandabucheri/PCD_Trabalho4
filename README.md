@@ -1,5 +1,7 @@
 # Otimização do Algoritmo de caminho mínimo entre grafos de Floyd-Warshall, transformando de serial para paralelo.
+
 <br>
+
 ## Descrição do algoritmo
 O algoritmo de Floyd-Warshall foi desenvolvido por Bernard Roy, Stephen Warshall e Robert Floyd em 1962. 
 Seu objetivo é encontrar o caminho mais curto entre todos os pares de vértices de um grafo direcionado e ponderado, gerando como saída uma matriz de distâncias que contém os valores do menor caminho entre cada par de vértices.
