@@ -50,7 +50,7 @@ Os resultados obtidos foram extremamente satisfatórios, tendo em vista que em C
 
 # Para compilar
 
-### 1) Código em C que utiliza OpenMP
+### Código em C que utiliza OpenMP:
 <br>
 
 ``` 
@@ -64,16 +64,6 @@ $ time ./<executável>
 - O _time_, presente na segunda linha, opcional. Ele serve para mostrar mais detalhadamente o tempo de execução do programa).
 
 <br> 
-
-### 2) Código em C serial
-<br>
-
-``` 
-$ gcc -O3 <nome do arquivo>.c -o <executável>
-$ time ./<executável>
-```
-
-<br>
 
 #
 
