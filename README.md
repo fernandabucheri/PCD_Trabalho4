@@ -35,7 +35,11 @@ O **código serial levou 44,48 segundos** para executar, enquanto que o **códig
 <br><br>
 
 ### _Gráficos_
-Foram montados gráficos para melhor visualização dos resultados obtidos e com outros testes. Os mesmos estão disponíveis [aqui](https://docs.google.com/spreadsheets/d/1H5-Em80YQwA0ypmRPsdF6hyoEcKSBcKjR6gqlPUFNW8/edit?usp=sharing). 
+Além dos testes mencionados, foram feitos outros testes. Posteriormente montamos gráficos para melhor visualização dos resultados obtidos. Os mesmos estão disponíveis [aqui](https://docs.google.com/spreadsheets/d/1H5-Em80YQwA0ypmRPsdF6hyoEcKSBcKjR6gqlPUFNW8/edit?usp=sharing). 
+
+<br>
+
+_Vale ressaltar que os testes em C foram realizados em uma máquina diferente da utilizada para testar o código em Python._
 
 <br>
 
