@@ -7,7 +7,7 @@ Seu objetivo é encontrar o caminho mais curto entre todos os pares de vértices
 <br>
 
 ## Complexidade 
-Os três laços aninhados são executados n vezes, logo, a complexidade final é $O(n^3)$, ou mais precisamente, $Θ(n^3)$. 
+Os três laços aninhados são executados n vezes, logo, a complexidade final é O(n^3), ou mais precisamente, Θ(n^3). 
 
 <br>
 
