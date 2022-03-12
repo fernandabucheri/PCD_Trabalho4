@@ -48,7 +48,7 @@ Os resultados obtidos foram extremamente satisfatórios, tendo em vista que em C
 
 <br><br>
 
-# Para compilar
+# Para compilar e rodar
 
 ### Código em C que utiliza OpenMP:
 <br>
